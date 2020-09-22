@@ -4,27 +4,30 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width">
-	<title>>Rural Girls Buddy</title>
+	<title>Elementary School Piggy</title>
 	<link href="css/style.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
 	<script src="//cdn.jsdelivr.net/npm/pouchdb@7.2.1/dist/pouchdb.min.js">
+
 	</script>
 	<script src="js/database.js">
+
 	</script>
 	<script src="js/account.js">
+
 	</script>
 
 	<div id="navcontainer">
 		<ul id="navlist">
 			<li><a href="index.html">Home</a></li>
-			
+			<li id="menuLogin"><a href="signin.html">Login</a></li>
+			<li id="menuRegister"><a href="registration.html">Registration</a></li>
 			<li id="menuLogout"><a onclick="logout()">Logout</a></li>
-		
+			<li id="menuTracking"><a href="tracking.html">Tracking</a></li>
 			<li id="menuMyBuddy"><a href="mybuddy.html">My Buddy</a></li>
 			<li id="manuRelaxAndFun"><a href="relax.html">Relax and Fun</a></li>
-      
 		</ul>
 	</div>
 	<div style="float: right; padding-right:50px; color: white; display:none; font-weight: bold; text-decoration:underline; font-size: 20px"
@@ -33,7 +36,26 @@
 			<label id="lblCurrentUserName"></label>
 		</div>
 
-<div class="wrapper" style="width:100%">
-<h1>My Buddy</h1>
-<br>
-<br>
+    <div class="wrapper" style="width:100%">
+    <h1>Sign In</h1>
+    <article>
+<form >
+ <ul>
+  <li>
+    <label for="txtEmail">Email:</label>
+    <input type="text" id="txtEmail" name="user_name">
+  </li>
+  <li>
+    <label for="txtPassword">Password:</label>
+    <input type="password" id="txtPassword" name="user_password">
+  </li>
+ </ul>
+	<div class="buttonbuddies">
+    <p><a class="button" onclick="userSignIn()">Login</a></p>
+    <p><a class="button" href="index.html">Cancel</a></p>
+  </div>
+</div>
+</form>
+  </article>
+  </body>
+</html>

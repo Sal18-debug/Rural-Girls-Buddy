@@ -1,0 +1,15 @@
+#childTable{
+	border-collapse:collapse;
+	border:1px solid black;
+}
+
+#childTable td{
+	border:1px solid black;
+	padding: 5px;
+}
+
+#childTable th{
+	border:1px solid black;
+	font-weight: bold;
+	padding: 5px;
+}
