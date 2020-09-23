@@ -1,0 +1,400 @@
+html {
+    background: #e7b5b3 url() no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body{
+  width: 100%;
+  background-color: #e7b5b3;
+  opacity: 0.9;
+  padding: 0 10px;
+  margin: 0 auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body h1 {
+  text-align: center;
+}
+
+#navbar {
+    background-color: transparent;
+}
+
+#navbar ul
+{
+text-align: center;
+.padding-bottom: 5px;
+padding-bottom: 0;
+padding-top: 5px;
+padding-left: 0;
+margin-top: 15px;
+margin-left: 0;
+color: white;
+width: 100%;
+font-family: Arial,Helvetica,sans-serif;
+line-height: 18px;
+}
+
+/*
+#navbar ul:before {
+  content: "Welcome to Weather Infinity";
+  color: #666;
+  font-size: 24px;
+  font-weight: bold;
+  float: left;
+  padding-left: 10px;
+}
+*/
+
+#navbar ul li
+{
+display: inline;
+padding-left: 0;
+padding-right: 0;
+padding-bottom: 5px;
+/* matches link padding except for left and right */
+padding-top: 5px;
+}
+
+#navbar ul li a
+{
+padding-left: 10px;
+padding-right: 10px;
+padding-bottom: 5px;
+padding-top: 5px;
+color: #666;
+text-decoration: none;
+border-right: 1px solid transparent;
+}
+
+#navbar ul li a:hover
+{
+background-color: #d2a6a4;
+color: #333;
+}
+
+#navbar #active { border-left: 1px solid #fff; }
+
+
+.headerDiv{
+    .background-color: rgb(50, 211, 230);
+    color: azure;
+    height: 50px;
+    box-shadow: 5px 7px lightgray;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+h1{
+    padding-left: 10px;
+    margin-bottom: 7px;
+    margin-top: 0;
+}
+
+.headerTextSpan{
+    width: 600px;
+}
+
+.headerImg{
+    height: 300px;
+    width: 100%;
+    .box-shadow: 5px 7px lightgray;
+}
+
+.dropdown-menu > li > a {
+    .color: white;
+    .color: #666;
+    font-size: 20px;
+}
+
+.dropdown-menu{
+    .background-color: rgb(50, 211, 230);
+    left: 750px;
+}
+
+h2{
+    .color: rgb(50, 211, 230);
+    margin-top: 8px;
+    margin-left: 8px;
+		margin-right: 8px;
+    .border-bottom: 2px solid rgb(50, 211, 230);
+}
+
+h3 {
+  margin-left: 8px;
+}
+
+p, ol li, {
+    font-size: 1.25em;
+}
+
+ul li {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+p {
+    margin: 15px 10px;
+}
+
+table{
+    margin-top: 8px;
+    margin-left: 8px;
+		margin-right: 8px;
+		font-weight: normal;
+}
+
+.headerMenuButton{
+	padding-right: 8px;
+	padding-left: 8px;
+	.background-color:  rgb(50, 211, 230);
+	color: #666;
+	font-size: 20px;
+	border: none;
+	height: 43px;
+}
+
+.headerMenuButton:hover{
+	background-color: #369;;
+	color:  rgb(50, 211, 230);
+}
+
+.normalParagraph{
+	font-size: 15px;
+}
+
+.contentDivs{
+  margin-top: 350px;
+}
+
+.contentDiv{
+    background-color: transparent;
+    float: left;
+    box-shadow: none;
+    width: 45%;
+    min-height: 350px;
+    margin: 25px 12px 25px 12px;
+    padding-bottom: 8px;
+}
+
+.contentDiv:nth-of-type(2n) {
+  float: right;
+}
+
+.contentDiv img {
+  max-width: 600px;
+  margin: 10px;
+}
+
+iframe {
+  max-height: 300px;
+  text-align: center;
+}
+
+.entry {
+  margin: 1em;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 10px;
+    background-color: transparent;
+  border: 1px solid #000;
+}
+
+.entry:hover {
+  cursor: pointer;
+}
+
+.adultgames {
+  list-style-type: none;
+}
+
+.adultgames li {
+  font-weight: bolder;
+  color: #fff;
+ }
+
+// styles for buttons
+// ----------------------
+// ----------------------
+      a.button {
+        text-decoration: none;
+      }
+      button.button {
+        border: none;
+        background-color: transparent;
+        font-family: inherit;
+        padding: 0;
+        cursor: pointer;
+      
+        @media screen and (-ms-high-contrast: active) {
+          border: 2px solid currentcolor;
+        }
+      }
+
+      a.button,
+      button.button {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #5792ff;
+        background-image: linear-gradient(0deg, #755 0%, #755 50%, #977 100%);
+        color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 3px 5px rgba(0, 0, 0, 0.18);
+        padding: 0.25em 0.75em;
+        min-width: 10ch;
+        min-height: 44px;
+        text-align: center;
+        line-height: 1.1;
+        transition: 220ms all ease-in-out;
+        }
+
+        a.button:hover, button.button:hover {
+          background-color: #4a7dff;
+          background-image: linear-gradient(0deg, #5f4444 0%, #5f4444 50%, #7a5f5f 100%);
+        }
+
+        a.button:active, button.button:active {
+          background-color: #3253cc;
+          background-image: linear-gradient(0deg, #473333 0%, #473333 50%, #5c4747 100%);
+        }
+
+        a.button:focus, button.button:focus {
+          outline-style: solid;
+          outline-color: transparent;
+          box-shadow: 0 0 0 4px #7a5f5f;
+        }
+//-------------------------------
+//-------------------------------
+//-------------------------------
+// End of button styles
+
+
+// styles for games
+//-------------------------------
+//-------------------------------
+/*
+body.games {
+  background-image: url(https://weatheraftermathgamess.sjj3.repl.co/images/ducks.jpg);
+  background-repeat: repeat;
+  background-position: top left;
+  background-size: 120px 120px;
+}
+*/
+
+.contentDiv.games {
+  width: 100%;
+  .margin-top: 375px;
+  .margin-top: 0;
+  margin-left: 12px;
+  margin-bottom: 12px;
+  padding: 12px;
+  border: 0;
+  background-color: transparent;
+  box-shadow: none;
+  text-align: center;
+}
+
+.contentDiv.games:nth-of-type(2n) {
+  float: right;
+}
+
+contentDiv.games img {
+  max-width: 600px;
+  margin: 10px;
+}
+
+a img {
+padding: 10px;
+border: 7px solid transparent;
+border-radius: 8px;
+margin: 20px;
+background-color: #fff;
+}
+
+a:hover img {
+padding: 10px;
+border: 7px solid #369;
+border-radius: 8px;
+margin: 20px;
+background-color: #fff;
+}
+
+img.headerImg {
+  display: block;
+  width: 100%;
+  margin: 75px auto 0 auto;
+  padding: 0;
+  border: 1px solid #000;
+  border-radius: 8px;
+  box-shadow: none;
+}
+//-------------------------------
+//-------------------------------
+// End of games styles
+
+// Styles for footer
+// -----------------------------
+#footer {
+  width: 90%;
+  margin: 0 auto;
+}
+
+ul#footlist {
+  display: inline-block;
+  text-align: right;
+  width: 100%;
+  position: relative;
+  margin: 20px 0 100px 0;
+}
+
+ul#footlist li {
+  display: inline;
+  position: absolute;
+  width: 36px;
+  height: 36px;
+}
+
+#panel1 {left: calc(100% - (1*45px)); width: 36px;
+  background: transparent url(https://global-diary.sjj3.repl.co/images/sprites.jpg)
+    0 0 no-repeat;}
+#panel2 {left: calc(100% - (2*45px)); width: 36px;
+  background: transparent url(https://global-diary.sjj3.repl.co/images/sprites.jpg)
+    -33px 0 no-repeat;}
+#panel3 {left: calc(100% - (3*45px)); width: 36px;
+  background: transparent url(https://global-diary.sjj3.repl.co/images/sprites.jpg)
+    -67px 0 no-repeat;}
+#panel4 {left: calc(100% - (4*45px)); width: 36px;
+  background: transparent url(https://global-diary.sjj3.repl.co/images/sprites.jpg)
+   -101px 0 no-repeat;}
+#panel5 {left: calc(100% - (5*45px)); width: 36px;
+  background: transparent url(https://global-diary.sjj3.repl.co/images/sprites.jpg)
+   -135px 0 no-repeat;}
+#panel6 {left: calc(100% - (6*45px)); width: 36px;
+  background: transparent url(https://global-diary.sjj3.repl.co/images/sprites.jpg)
+   -169px 0 no-repeat;}
+
+ul#footlist li a {
+  text-decoration: none;
+  height: 100%;
+  display: block;
+}
+
+ul#footlist li a:hover {
+  background-color: rgba(231,181,179,0.5 );
+  padding: 0;
+  margin: 0;
+}
+
+#footlist::before {
+  position: absolute;
+  content: "Copyright 2020 Covid-19 Infinity";
+  background-color: transparent;
+  color: #666;
+  left: 9px; top: 9px;
+}
+// End of footer styles
+
